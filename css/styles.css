@@ -34,12 +34,28 @@ header {
     background-color: #000000;
     color: #fff;
   }
+
   .maincontent{
     width: 98%;
     height: 100%;
   padding: 10px;
   border: 1px solid gray;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  }
+  .description{
+    width: 98%;
+    height: 50%;
+    padding: 10px;
+    background-color: #F3C4C4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .image_class{
+    align-items: center;
+    justify-content: center;
   }
   .project-container {
     display: flex;
