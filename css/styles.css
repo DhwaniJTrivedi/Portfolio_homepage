@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #B00000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F3C4C4;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  .maincontent{
+    width: 98%;
+    height: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 0;
+  }
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subtrack_image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .subtrack_image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .artscape_image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .artscape_image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .usdoi_image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .usdoi_image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .project-description {
+    flex: 1;
+  }
+  
+
+  
+  .project-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description p {
+    font-size: 16px;
+  }
+
+  .footer {
+    text-align: center;
+    position: relative;
+  }
+  
+  hr {
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .email {
+    margin-right: 20px;
+  }
+  
+  .linkedin-icon {
+    height: 24px;
+    width: auto;
+  }
