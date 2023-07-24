@@ -156,6 +156,7 @@ background-color: #f9f9f9;
   grid-area: myImage;
   
 }
+
   .footer {
     text-align: center;
     position: relative;
@@ -180,7 +181,8 @@ background-color: #f9f9f9;
     height: 24px;
     width: auto;
   }
-  @media only screen and (max-width: 767px) {
+  /* @media only screen and (max-width: 767px) {
+    
     #heroGrid1 {
       flex-direction: column;
       align-items: center;
@@ -198,4 +200,19 @@ background-color: #f9f9f9;
     .image {
       margin-top: 20px;
     }
+  } */
+  @media only screen and (max-width: 767px) {
+    #heroGrid1 {
+      background-color: lightgray;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+      .project-container {
+        background-color: lightgrey;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+
+}
   }
