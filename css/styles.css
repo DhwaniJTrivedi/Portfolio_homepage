@@ -69,7 +69,7 @@ header {
   }
   #heroGrid{
     margin: 0px 5%;
-  display: grid;
+  display: flex;
   align-content: center;
   min-height: 500px;
 background-color: #f9f9f9;
@@ -185,7 +185,10 @@ background-color: #f9f9f9;
       flex-direction: column;
       align-items: center;
     }
-  
+    #heroGrid {
+      flex-direction: column;
+      align-items: center;
+    }
     .description,
     .image {
       flex: 1;
