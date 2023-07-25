@@ -203,13 +203,12 @@ background-color: #f9f9f9;
   } */
   @media only screen and (max-width: 767px) {
     #heroGrid1 {
-      background-color: lightgray;
-      width: 100%;
+      margin: 0px 5%;
       flex-direction: column;
       align-items: center;
     }
       .project-container {
-        background-color: lightgrey;
+        background-color: #f9f9f9;
       width: 100%;
       flex-direction: column;
       align-items: center;
