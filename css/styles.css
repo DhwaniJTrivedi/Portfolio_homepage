@@ -67,7 +67,27 @@ header {
     align-items: center;
     justify-content: center;
   }
-  #heroGrid{
+  #heroGrid_subtrack{
+    margin: 0px 5%;
+  display: flex;
+  align-content: center;
+  min-height: 500px;
+background-color: #f9f9f9;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "subtrackImage subtrackDesc"
+  "subtrackImage subtrackDesc";
+  }
+  #heroGrid_artscape{
+    margin: 0px 5%;
+  display: flex;
+  align-content: center;
+  min-height: 500px;
+background-color: #f9f9f9;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "subtrackImage subtrackDesc"
+  "subtrackImage subtrackDesc";
+  }
+  #heroGrid_usdoi{
     margin: 0px 5%;
   display: flex;
   align-content: center;
@@ -85,6 +105,21 @@ background-color: #f9f9f9;
   grid-template-rows: 50% 50%;
   grid-template-areas: "myDesc myImage"
   "myDesc myImage";
+  }
+  .animated-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: plum;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease; /* Use the 'all' property to animate all CSS properties */
+  }
+  
+  .animated-button:hover {
+    transform: scale(1.1); /* Scale the button by 10% on hover */
+    background-color: #F44336; /* Change background color on hover */
   }
   .project-container {
     background-position: center;

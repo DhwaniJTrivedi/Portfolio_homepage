@@ -12,3 +12,6 @@ function scrollToContent(tabNumber) {
       behavior: "smooth"
     });
   }
+  
+  
+   
